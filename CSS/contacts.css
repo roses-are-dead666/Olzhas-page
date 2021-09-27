@@ -13,7 +13,6 @@
     text-decoration: none;
     outline: none;
     border: none;
-    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -35,7 +34,6 @@ header {
     align-items: center;
     justify-content: center;
     z-index: 1000;
-    box-shadow: var(--box-shadow);
 }
 
 header .navbar a {
@@ -72,8 +70,31 @@ header .navbar a:hover {
     background-color: #fff;
     width: 35rem;
     text-align: center;
+    cursor: pointer;
+    border-radius: .5rem;
 }
 
+.homeText a {
+    color: var(--pink);
+    margin: 1rem;
+}
+
+.footer { 
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    padding: 1.5rem 7%;
+}
+
+.footer h4 {
+    color: var(--light-color);
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.footer h4 a {
+    color: var(--pink);
+}
 
 
 
